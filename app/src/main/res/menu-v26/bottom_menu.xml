@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/firstFragment" android:title="@string/dashboard" android:icon="@drawable/ic_dashboard" android:iconTint="@color/black" />
+    <item android:id="@+id/secondFragment" android:title="@string/attendance" android:icon="@drawable/ic_reg" android:iconTint="@color/black"/>
+    <item android:id="@+id/thirdFragment" android:title="@string/logout" android:icon="@drawable/ic_baseline_login_24" android:iconTint="@color/black"/>
+</menu>

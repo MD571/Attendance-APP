@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "238800600881",
+    "firebase_url": "https://student-attendance-v-default-rtdb.firebaseio.com",
+    "project_id": "student-attendance-v",
+    "storage_bucket": "student-attendance-v.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238800600881:android:5a8f1f49e493047c183a10",
+        "android_client_info": {
+          "package_name": "com.example.attendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238800600881-j47e6nh0frsj9gt3onimtchopddoi3jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu3TbPhOeNuBgdR5cn8PwyTi_ONb8WMxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238800600881-j47e6nh0frsj9gt3onimtchopddoi3jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238800600881:android:5d610773a5491a0a183a10",
+        "android_client_info": {
+          "package_name": "com.example.attendanceapv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238800600881-j47e6nh0frsj9gt3onimtchopddoi3jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu3TbPhOeNuBgdR5cn8PwyTi_ONb8WMxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238800600881-j47e6nh0frsj9gt3onimtchopddoi3jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

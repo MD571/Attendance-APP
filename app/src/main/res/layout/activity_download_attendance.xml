@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".download_attendance"
+    android:orientation="vertical"
+    android:gravity="center">
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:neumorph_shadowColorDark="@color/dark_shadow"
+        app:neumorph_shadowColorLight="@color/light_shadow"
+        app:neumorph_shapeType="basin">
+
+        <Spinner
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:entries="@array/Branch"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+    </soup.neumorphism.NeumorphCardView>
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:neumorph_shadowColorDark="#b2ebf2"
+        app:neumorph_shapeType="basin">
+
+        <Spinner
+            android:id="@+id/classtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10sp"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/black"
+            tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+    </soup.neumorphism.NeumorphCardView>
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="300dp"
+        android:id="@+id/datepick"
+        android:layout_height="wrap_content"
+        android:background="@drawable/no_bg"
+        style="android:spinnerStyle">
+        <TextView
+            android:id="@+id/datetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAN 01 2020"
+            android:fontFamily="@font/lato_black"
+            android:textSize="25sp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:background="@drawable/no_bg"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginTop="10dp"/>
+    </soup.neumorphism.NeumorphCardView>
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/download"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lato_black"
+        android:text="Download Attendance"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:neumorph_backgroundColor="@color/RB"
+        app:neumorph_shapeType="flat"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/faceimg"/>
+</LinearLayout>

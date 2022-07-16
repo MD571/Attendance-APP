@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".face_detector"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/detectface"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:fontFamily="@font/lato_black"
+        android:text="Process"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:neumorph_backgroundColor="@color/RB"
+        app:neumorph_shapeType="flat"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <com.wonderkiln.camerakit.CameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_view"
+        android:layout_above="@+id/detectface">
+    </com.wonderkiln.camerakit.CameraView>
+    <com.example.attendanceapp.Helper.GraphicOverlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graphic_overly"
+        android:layout_above="@+id/detectface" />
+
+</RelativeLayout>
