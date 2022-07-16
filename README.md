@@ -9,7 +9,7 @@
 
 
 ## About
-   The project is a Student Attendance system` which is a `kotlin-based` application. The application generally take attendance from students through their own mobile phone.
+   The project is a `Student Attendance system` which is a `kotlin-based` application. The application generally take attendance from students through their own mobile phone.
 ## Features
 * Student login and registration.
 * Mark Attendance by checking Biometric, and ID card scan.
